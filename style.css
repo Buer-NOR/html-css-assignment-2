@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+h2{
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(0, 0%, 95%);
+}
+
+.wrapper{
+    display: flex;
+    height: 440px;
+    width: 850px;
+    margin: 50px auto;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.color1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+.color2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.color3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+.color1 a{
+    color: hsl(31, 77%, 52%);
+}
+
+.color2 a{
+    color: hsl(184, 100%, 22%);
+}
+
+.color3 a{
+    color: hsl(179, 100%, 13%);
+}
+
+img{
+    width: 50px;
+}
